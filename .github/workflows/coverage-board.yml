@@ -1,0 +1,152 @@
+# Regenerate COVERAGE.md from RegLens's public coverage RPC.
+#
+# Reads get_public_coverage() — an anon-callable, deliberately sanitized
+# projection (it returns jurisdiction codes, names, bill counts and success
+# stamps, and nothing else) — renders it to markdown, and commits only when the
+# content actually changed.
+#
+# NO SECRETS. This repository is public, so the job holds none. The two values
+# it needs are repository VARIABLES, not secrets, because both are public by
+# design: SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY are the same pair the
+# reglens.info browser bundle ships to every visitor. Treating them as secrets
+# would imply a confidentiality they do not have. If either is unset the job
+# fails loudly rather than committing a broken board.
+#
+# PUBLISHING IS OFF BY DEFAULT. Scheduled runs render and report but do not
+# commit unless the repository variable COVERAGE_PUBLISH is exactly "true".
+# That gate exists because the board currently reports most jurisdictions as
+# stale (the LegiScan lane has been locked since 2026-08-01), and the board
+# should not become the org's public front door until that is fixed. Flip the
+# variable to publish; nothing else needs to change.
+
+name: Coverage board
+
+on:
+  schedule:
+    # Every 6 hours at :50. The database refreshes its bill-count cache on a
+    # "40 */6" cron, so this lands ten minutes after fresh counts exist.
+    - cron: "50 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render and report without committing"
+        type: boolean
+        default: true
+
+# Only the commit step needs this, and it is the only write the job performs.
+permissions:
+  contents: write
+
+concurrency:
+  group: coverage-board
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Require configuration
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          missing=""
+          [ -n "$SUPABASE_URL" ] || missing="$missing SUPABASE_URL"
+          [ -n "$SUPABASE_PUBLISHABLE_KEY" ] || missing="$missing SUPABASE_PUBLISHABLE_KEY"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository variable(s):$missing. Set them under" \
+                 "Settings → Secrets and variables → Actions → Variables. Both are" \
+                 "public values (the same pair reglens.info ships to browsers), so" \
+                 "they belong in Variables, not Secrets."
+            exit 1
+          fi
+
+      - name: Fetch coverage payload
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          set -euo pipefail
+          # --fail-with-body so a 4xx/5xx is a job failure AND the body is
+          # visible; retries because a transient blip must not blank the board.
+          curl -sS --fail-with-body \
+               --retry 3 --retry-delay 5 --retry-all-errors \
+               --max-time 30 \
+               -X POST "${SUPABASE_URL%/}/rest/v1/rpc/get_public_coverage" \
+               -H "apikey: ${SUPABASE_PUBLISHABLE_KEY}" \
+               -H "Authorization: Bearer ${SUPABASE_PUBLISHABLE_KEY}" \
+               -H "Content-Type: application/json" \
+               -d '{}' \
+               -o payload.json
+          echo "Fetched $(wc -c < payload.json) bytes"
+
+      - name: Render COVERAGE.md
+        # The renderer refuses a payload with zero jurisdictions, so a
+        # technically-successful-but-empty response fails here instead of
+        # replacing a good board with an empty one.
+        run: node scripts/render-coverage.mjs < payload.json > COVERAGE.md
+
+      - name: Report
+        run: |
+          {
+            echo "### Rendered coverage board"
+            echo
+            echo "<details><summary>COVERAGE.md preview</summary>"
+            echo
+            cat COVERAGE.md
+            echo
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Detect change
+        id: diff
+        run: |
+          rm -f payload.json
+          # git status, not git diff: COVERAGE.md is untracked until the first
+          # publish, and `git diff` ignores untracked files entirely — so a
+          # diff-based check would report "unchanged" forever and the board
+          # would never appear.
+          if [ -z "$(git status --porcelain -- COVERAGE.md)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "COVERAGE.md is unchanged — nothing to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git --no-pager diff --stat -- COVERAGE.md || true
+          fi
+
+      - name: Commit
+        # Three conditions, all deliberate: something changed; publishing is
+        # switched on; and a manual run did not ask for a dry run.
+        if: >-
+          steps.diff.outputs.changed == 'true' &&
+          vars.COVERAGE_PUBLISH == 'true' &&
+          inputs.dry_run != true
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add COVERAGE.md
+          git commit -m "Update coverage board"
+          git push
+
+      - name: Explain why nothing was committed
+        if: >-
+          steps.diff.outputs.changed == 'true' &&
+          (vars.COVERAGE_PUBLISH != 'true' || inputs.dry_run == true)
+        run: |
+          if [ "${{ vars.COVERAGE_PUBLISH }}" != "true" ]; then
+            echo "::notice::COVERAGE.md changed but was not committed:" \
+                 "repository variable COVERAGE_PUBLISH is not \"true\"." \
+                 "Set it to publish the board."
+          else
+            echo "::notice::Dry run — COVERAGE.md changed but was not committed." \
+                 "Re-run with dry_run unchecked to publish."
+          fi
