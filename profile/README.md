@@ -30,7 +30,12 @@ Every bill analysis produces five dimension scores on a 1–5 scale, combined
 into a weighted composite that sets a risk tier, plus a passage likelihood that
 can escalate that tier or cap it. Agency rules use a three-dimension variant.
 The dimensions, weights and thresholds are all published at
-**[reglens.info/methodology](https://www.reglens.info/methodology)**.
+**[reglens.info/methodology](https://www.reglens.info/methodology)**, and the
+full specification — including the prompts the model actually receives — is in
+**[reglens-method](https://github.com/RegLens-Insights/reglens-method)**.
+
+Given a published assessment's five dimension scores you can reproduce its risk
+tier by hand. That is the point of publishing it.
 
 RegLens scores are analytical estimates — not legal, investment or compliance
 advice.
@@ -44,6 +49,14 @@ advice.
 - [Methodology](https://www.reglens.info/methodology) ·
   [FAQ](https://www.reglens.info/faq) ·
   [System status](https://www.reglens.info/status)
+
+## Repositories
+
+| Repo | What it does |
+| --- | --- |
+| [reglens-method](https://github.com/RegLens-Insights/reglens-method) | The scoring rubric: dimensions, weights, tier thresholds, the prompts verbatim, and a changelog. |
+
+The RegLens application itself is closed source.
 
 ## Links
 
