@@ -46,6 +46,8 @@ advice.
   jurisdiction and what is moving in each
 - Individual bill pages, including the per-dimension rationales behind a score
 - **[The federal Atom feed](https://msontjctxpthnmdhcmvu.supabase.co/functions/v1/feeds?feed=us)**
+- **[reglens.info/architecture](https://www.reglens.info/architecture)** — how the
+  pipeline works: five sources, ingest, AI scoring, and what it powers
 - [Methodology](https://www.reglens.info/methodology) ·
   [FAQ](https://www.reglens.info/faq) ·
   [System status](https://www.reglens.info/status)
@@ -62,6 +64,7 @@ The RegLens application itself is closed source.
 
 - **[reglens.info](https://www.reglens.info)**
 - [Methodology](https://www.reglens.info/methodology) ·
+  [Architecture](https://www.reglens.info/architecture) ·
   [System status](https://www.reglens.info/status) ·
   [Terms](https://www.reglens.info/terms) ·
   [Privacy](https://www.reglens.info/privacy)
