@@ -24,6 +24,10 @@ publishing entries yet — we are confirming redistribution terms with our state
 legislative data supplier first. The federal feed is public-domain data and is
 live now.
 
+A live **[coverage board](https://github.com/RegLens-Insights/.github/blob/main/COVERAGE.md)**
+shows per-jurisdiction freshness and bill counts, regenerated every 6 hours,
+with stale lanes named rather than hidden.
+
 ## How scoring works
 
 Every bill analysis produces five dimension scores on a 1–5 scale, combined
