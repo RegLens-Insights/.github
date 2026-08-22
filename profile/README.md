@@ -26,7 +26,10 @@ live now.
 
 A live **[coverage board](https://github.com/RegLens-Insights/.github/blob/main/COVERAGE.md)**
 shows per-jurisdiction freshness and bill counts, regenerated every 6 hours,
-with stale lanes named rather than hidden.
+with stale lanes named rather than hidden. An upstream access issue with our
+state legislative data supplier kept many state lanes stale from mid-July;
+access was restored on **2026-08-22** and those lanes are refreshing again —
+the board records each one's recovery as its backlog drains.
 
 ## How scoring works
 
