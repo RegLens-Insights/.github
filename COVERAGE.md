@@ -6,14 +6,14 @@ Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it t
 
 **656,214 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **19 live · 32 stale · 0 dormant**. Bill counts as of 2026-08-23 06:40 UTC.
+State-level: **19 live · 32 stale · 0 dormant**. Bill counts as of 2026-08-23 12:40 UTC.
 
 ## Data sources
 
 | Source | Last success | Status |
 | --- | --- | --- |
 | Federal bills | 2026-08-23 06:00 UTC | 🟢 Operational |
-| State legislation | 2026-08-23 06:37 UTC | 🟡 Delayed |
+| State legislation | 2026-08-23 12:37 UTC | 🟡 Delayed |
 | Agency actions | 2026-08-23 06:50 UTC | 🟢 Operational |
 | Court cases | 2026-08-23 06:20 UTC | 🟢 Operational |
 | Enacted laws | 2026-08-23 06:30 UTC | 🟢 Operational |
@@ -33,16 +33,16 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Alaska | 4,008 | 2026-07-13 04:04 UTC | 🟡 Stale |
 | Arizona | 10,725 | 2026-08-23 02:48 UTC | 🟢 Live |
 | Arkansas | 5,519 | 2026-07-13 04:10 UTC | 🟡 Stale |
-| California | 21,422 | 2026-08-23 06:07 UTC | 🟢 Live |
+| California | 21,422 | 2026-08-23 12:07 UTC | 🟢 Live |
 | Colorado | 7,763 | 2026-08-23 02:18 UTC | 🟢 Live |
 | Connecticut | 12,077 | 2026-07-13 04:16 UTC | 🟡 Stale |
 | DC | 3,672 | 2026-07-13 05:44 UTC | 🟡 Stale |
 | Delaware | 5,091 | 2026-07-13 04:16 UTC | 🟡 Stale |
 | Florida | 11,931 | 2026-08-23 02:53 UTC | 🟢 Live |
 | Georgia | 10,889 | 2026-08-23 02:33 UTC | 🟢 Live |
-| Hawaii | 20,192 | 2026-08-23 01:38 UTC | 🟢 Live |
+| Hawaii | 20,192 | 2026-08-23 09:38 UTC | 🟢 Live |
 | Idaho | 7,024 | 2026-07-13 04:30 UTC | 🟡 Stale |
-| Illinois | 36,379 | 2026-08-23 01:03 UTC | 🟢 Live |
+| Illinois | 36,379 | 2026-08-23 09:03 UTC | 🟢 Live |
 | Indiana | 7,120 | 2026-07-13 04:34 UTC | 🟡 Stale |
 | Iowa | 5,635 | 2026-07-13 04:34 UTC | 🟡 Stale |
 | Kansas | 4,501 | 2026-07-13 04:36 UTC | 🟡 Stale |
@@ -52,27 +52,27 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Maryland | 11,126 | 2026-07-13 04:44 UTC | 🟡 Stale |
 | Massachusetts | 17,962 | 2026-08-23 02:28 UTC | 🟢 Live |
 | Michigan | 6,115 | 2026-07-13 04:46 UTC | 🟡 Stale |
-| Minnesota | 23,030 | 2026-08-23 01:08 UTC | 🟢 Live |
+| Minnesota | 23,030 | 2026-08-23 09:08 UTC | 🟢 Live |
 | Mississippi | 15,631 | 2026-07-13 04:50 UTC | 🟡 Stale |
 | Missouri | 11,646 | 2026-07-13 04:54 UTC | 🟡 Stale |
 | Montana | 7,985 | 2026-07-13 04:56 UTC | 🟡 Stale |
 | Nebraska | 3,228 | 2026-07-13 04:56 UTC | 🟡 Stale |
 | Nevada | 6,473 | 2026-07-13 04:58 UTC | 🟡 Stale |
 | New Hampshire | 11,180 | 2026-07-13 05:00 UTC | 🟡 Stale |
-| New Jersey | 46,409 | 2026-08-23 01:53 UTC | 🟢 Live |
+| New Jersey | 46,409 | 2026-08-23 09:53 UTC | 🟢 Live |
 | New Mexico | 6,357 | 2026-07-13 05:06 UTC | 🟡 Stale |
-| New York | 59,878 | 2026-08-23 06:22 UTC | 🟢 Live |
+| New York | 59,878 | 2026-08-23 12:22 UTC | 🟢 Live |
 | North Carolina | 5,669 | 2026-08-23 02:43 UTC | 🟢 Live |
 | North Dakota | 5,009 | 2026-07-13 05:10 UTC | 🟡 Stale |
 | Ohio | 6,152 | 2026-08-23 02:23 UTC | 🟢 Live |
-| Oklahoma | 18,826 | 2026-08-23 01:28 UTC | 🟢 Live |
+| Oklahoma | 18,826 | 2026-08-23 09:28 UTC | 🟢 Live |
 | Oregon | 8,002 | 2026-07-13 05:16 UTC | 🟡 Stale |
 | Pennsylvania | 11,029 | 2026-08-23 02:13 UTC | 🟢 Live |
 | Rhode Island | 11,659 | 2026-07-13 05:20 UTC | 🟡 Stale |
 | South Carolina | 5,222 | 2026-07-13 05:20 UTC | 🟡 Stale |
 | South Dakota | 6,201 | 2026-07-13 05:24 UTC | 🟡 Stale |
-| Tennessee | 19,723 | 2026-08-23 01:18 UTC | 🟢 Live |
-| Texas | 35,149 | 2026-08-23 06:37 UTC | 🟢 Live |
+| Tennessee | 19,723 | 2026-08-23 09:18 UTC | 🟢 Live |
+| Texas | 35,149 | 2026-08-23 12:37 UTC | 🟢 Live |
 | Utah | 10,194 | 2026-07-13 05:32 UTC | 🟡 Stale |
 | Vermont | 6,193 | 2026-07-13 05:32 UTC | 🟡 Stale |
 | Virginia | 15,377 | 2026-08-23 02:38 UTC | 🟢 Live |
