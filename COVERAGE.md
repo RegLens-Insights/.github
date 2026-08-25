@@ -4,16 +4,16 @@
 
 Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it there is, and when it last updated. Regenerated every 6 hours; the commit history of this file is the record of when coverage actually moved.
 
-**656,576 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
+**656,577 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **51 live · 0 stale · 0 dormant**. Bill counts as of 2026-08-25 12:40 UTC.
+State-level: **20 live · 31 stale · 0 dormant**. Bill counts as of 2026-08-25 18:40 UTC.
 
 ## Data sources
 
 | Source | Last success | Status |
 | --- | --- | --- |
 | Federal bills | 2026-08-25 06:00 UTC | 🟢 Operational |
-| State legislation | 2026-08-25 12:37 UTC | 🟢 Operational |
+| State legislation | 2026-08-25 18:37 UTC | 🟡 Delayed |
 | Agency actions | 2026-08-25 06:50 UTC | 🟢 Operational |
 | Court cases | 2026-08-25 06:20 UTC | 🟢 Operational |
 | Enacted laws | 2026-08-25 06:30 UTC | 🟢 Operational |
@@ -29,57 +29,57 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Jurisdiction | Bills | Last success | Status |
 | --- | ---: | --- | --- |
 | **Federal — U.S. Congress** | 31,892 | 2026-08-25 06:00 UTC | 🟢 Live |
-| Alabama | 6,652 | 2026-08-24 04:04 UTC | 🟢 Live |
-| Alaska | 4,008 | 2026-08-24 04:04 UTC | 🟢 Live |
+| Alabama | 6,652 | 2026-08-24 04:04 UTC | 🟡 Stale |
+| Alaska | 4,008 | 2026-08-24 04:04 UTC | 🟡 Stale |
 | Arizona | 10,725 | 2026-08-25 02:48 UTC | 🟢 Live |
-| Arkansas | 5,519 | 2026-08-24 04:10 UTC | 🟢 Live |
-| California | 21,422 | 2026-08-25 12:07 UTC | 🟢 Live |
+| Arkansas | 5,519 | 2026-08-24 04:10 UTC | 🟡 Stale |
+| California | 21,423 | 2026-08-25 18:07 UTC | 🟢 Live |
 | Colorado | 7,763 | 2026-08-25 02:18 UTC | 🟢 Live |
-| Connecticut | 12,077 | 2026-08-24 04:14 UTC | 🟢 Live |
-| DC | 3,699 | 2026-08-24 05:30 UTC | 🟢 Live |
-| Delaware | 5,093 | 2026-08-24 04:16 UTC | 🟢 Live |
+| Connecticut | 12,077 | 2026-08-24 04:14 UTC | 🟡 Stale |
+| DC | 3,699 | 2026-08-24 05:30 UTC | 🟡 Stale |
+| Delaware | 5,093 | 2026-08-24 04:16 UTC | 🟡 Stale |
 | Florida | 11,931 | 2026-08-25 02:53 UTC | 🟢 Live |
 | Georgia | 10,889 | 2026-08-25 02:33 UTC | 🟢 Live |
-| Hawaii | 20,192 | 2026-08-25 09:38 UTC | 🟢 Live |
-| Idaho | 7,024 | 2026-08-24 04:28 UTC | 🟢 Live |
-| Illinois | 36,380 | 2026-08-25 09:03 UTC | 🟢 Live |
-| Indiana | 7,120 | 2026-08-24 04:30 UTC | 🟢 Live |
-| Iowa | 5,635 | 2026-08-24 04:30 UTC | 🟢 Live |
-| Kansas | 4,501 | 2026-08-24 04:32 UTC | 🟢 Live |
-| Kentucky | 7,337 | 2026-08-24 04:34 UTC | 🟢 Live |
-| Louisiana | 9,453 | 2026-08-24 04:36 UTC | 🟢 Live |
-| Maine | 3,776 | 2026-08-24 04:38 UTC | 🟢 Live |
-| Maryland | 11,132 | 2026-08-24 04:40 UTC | 🟢 Live |
+| Hawaii | 20,192 | 2026-08-25 17:38 UTC | 🟢 Live |
+| Idaho | 7,024 | 2026-08-24 04:28 UTC | 🟡 Stale |
+| Illinois | 36,380 | 2026-08-25 17:03 UTC | 🟢 Live |
+| Indiana | 7,120 | 2026-08-24 04:30 UTC | 🟡 Stale |
+| Iowa | 5,635 | 2026-08-24 04:30 UTC | 🟡 Stale |
+| Kansas | 4,501 | 2026-08-24 04:32 UTC | 🟡 Stale |
+| Kentucky | 7,337 | 2026-08-24 04:34 UTC | 🟡 Stale |
+| Louisiana | 9,453 | 2026-08-24 04:36 UTC | 🟡 Stale |
+| Maine | 3,776 | 2026-08-24 04:38 UTC | 🟡 Stale |
+| Maryland | 11,132 | 2026-08-24 04:40 UTC | 🟡 Stale |
 | Massachusetts | 17,971 | 2026-08-25 02:28 UTC | 🟢 Live |
-| Michigan | 6,191 | 2026-08-24 04:40 UTC | 🟢 Live |
-| Minnesota | 23,030 | 2026-08-25 09:08 UTC | 🟢 Live |
-| Mississippi | 15,639 | 2026-08-24 04:44 UTC | 🟢 Live |
-| Missouri | 11,646 | 2026-08-24 04:48 UTC | 🟢 Live |
-| Montana | 7,985 | 2026-08-24 04:50 UTC | 🟢 Live |
-| Nebraska | 3,228 | 2026-08-24 04:50 UTC | 🟢 Live |
-| Nevada | 6,473 | 2026-08-24 04:52 UTC | 🟢 Live |
-| New Hampshire | 11,180 | 2026-08-24 04:54 UTC | 🟢 Live |
-| New Jersey | 46,409 | 2026-08-25 09:53 UTC | 🟢 Live |
-| New Mexico | 6,357 | 2026-08-24 04:58 UTC | 🟢 Live |
-| New York | 59,878 | 2026-08-25 12:22 UTC | 🟢 Live |
+| Michigan | 6,191 | 2026-08-24 04:40 UTC | 🟡 Stale |
+| Minnesota | 23,030 | 2026-08-25 17:08 UTC | 🟢 Live |
+| Mississippi | 15,639 | 2026-08-24 04:44 UTC | 🟡 Stale |
+| Missouri | 11,646 | 2026-08-24 04:48 UTC | 🟡 Stale |
+| Montana | 7,985 | 2026-08-24 04:50 UTC | 🟡 Stale |
+| Nebraska | 3,228 | 2026-08-24 04:50 UTC | 🟡 Stale |
+| Nevada | 6,473 | 2026-08-24 04:52 UTC | 🟡 Stale |
+| New Hampshire | 11,180 | 2026-08-24 04:54 UTC | 🟡 Stale |
+| New Jersey | 46,409 | 2026-08-25 17:53 UTC | 🟢 Live |
+| New Mexico | 6,357 | 2026-08-24 04:58 UTC | 🟡 Stale |
+| New York | 59,878 | 2026-08-25 18:22 UTC | 🟢 Live |
 | North Carolina | 5,673 | 2026-08-25 02:43 UTC | 🟢 Live |
-| North Dakota | 5,009 | 2026-08-24 05:02 UTC | 🟢 Live |
+| North Dakota | 5,009 | 2026-08-24 05:02 UTC | 🟡 Stale |
 | Ohio | 6,225 | 2026-08-25 02:23 UTC | 🟢 Live |
-| Oklahoma | 18,826 | 2026-08-25 09:28 UTC | 🟢 Live |
-| Oregon | 8,002 | 2026-08-24 05:06 UTC | 🟢 Live |
+| Oklahoma | 18,826 | 2026-08-25 17:28 UTC | 🟢 Live |
+| Oregon | 8,002 | 2026-08-24 05:06 UTC | 🟡 Stale |
 | Pennsylvania | 11,111 | 2026-08-25 02:13 UTC | 🟢 Live |
-| Rhode Island | 11,659 | 2026-08-24 05:08 UTC | 🟢 Live |
+| Rhode Island | 11,659 | 2026-08-24 05:08 UTC | 🟡 Stale |
 | South Carolina | 5,284 | 2026-08-24 08:08 UTC | 🟢 Live |
-| South Dakota | 6,201 | 2026-08-24 05:14 UTC | 🟢 Live |
-| Tennessee | 19,723 | 2026-08-25 09:18 UTC | 🟢 Live |
-| Texas | 35,149 | 2026-08-25 12:37 UTC | 🟢 Live |
-| Utah | 10,194 | 2026-08-24 05:18 UTC | 🟢 Live |
-| Vermont | 6,193 | 2026-08-24 05:18 UTC | 🟢 Live |
+| South Dakota | 6,201 | 2026-08-24 05:14 UTC | 🟡 Stale |
+| Tennessee | 19,723 | 2026-08-25 17:18 UTC | 🟢 Live |
+| Texas | 35,149 | 2026-08-25 18:37 UTC | 🟢 Live |
+| Utah | 10,194 | 2026-08-24 05:18 UTC | 🟡 Stale |
+| Vermont | 6,193 | 2026-08-24 05:18 UTC | 🟡 Stale |
 | Virginia | 15,377 | 2026-08-25 02:38 UTC | 🟢 Live |
 | Washington | 8,423 | 2026-08-25 02:08 UTC | 🟢 Live |
-| West Virginia | 12,033 | 2026-08-24 05:24 UTC | 🟢 Live |
-| Wisconsin | 7,279 | 2026-08-24 05:26 UTC | 🟢 Live |
-| Wyoming | 4,008 | 2026-08-24 05:30 UTC | 🟢 Live |
+| West Virginia | 12,033 | 2026-08-24 05:24 UTC | 🟡 Stale |
+| Wisconsin | 7,279 | 2026-08-24 05:26 UTC | 🟡 Stale |
+| Wyoming | 4,008 | 2026-08-24 05:30 UTC | 🟡 Stale |
 
 ---
 
