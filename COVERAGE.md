@@ -6,14 +6,14 @@ Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it t
 
 **656,869 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **10 live · 41 stale · 0 dormant**. Bill counts as of 2026-09-04 06:40 UTC.
+State-level: **10 live · 41 stale · 0 dormant**. Bill counts as of 2026-09-04 12:40 UTC.
 
 ## Data sources
 
 | Source | Last success | Status |
 | --- | --- | --- |
 | Federal bills | 2026-09-04 06:01 UTC | 🟢 Operational |
-| State legislation | 2026-09-04 10:37 UTC | 🟡 Delayed |
+| State legislation | 2026-09-04 16:37 UTC | 🟡 Delayed |
 | Agency actions | 2026-09-04 06:50 UTC | 🟢 Operational |
 | Court cases | 2026-09-04 06:20 UTC | 🟢 Operational |
 | Enacted laws | 2026-09-04 06:30 UTC | 🟢 Operational |
@@ -33,7 +33,7 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Alaska | 4,008 | 2026-08-24 04:04 UTC | 🟡 Stale |
 | Arizona | 10,725 | 2026-08-25 02:48 UTC | 🟡 Stale |
 | Arkansas | 5,519 | 2026-08-24 04:10 UTC | 🟡 Stale |
-| California | 21,425 | 2026-09-04 10:07 UTC | 🟢 Live |
+| California | 21,425 | 2026-09-04 16:07 UTC | 🟢 Live |
 | Colorado | 7,763 | 2026-08-25 02:18 UTC | 🟡 Stale |
 | Connecticut | 12,077 | 2026-08-24 04:14 UTC | 🟡 Stale |
 | DC | 3,699 | 2026-08-24 05:30 UTC | 🟡 Stale |
@@ -61,7 +61,7 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | New Hampshire | 11,180 | 2026-08-24 04:54 UTC | 🟡 Stale |
 | New Jersey | 46,409 | 2026-09-04 09:53 UTC | 🟢 Live |
 | New Mexico | 6,357 | 2026-08-24 04:58 UTC | 🟡 Stale |
-| New York | 59,908 | 2026-09-04 10:22 UTC | 🟢 Live |
+| New York | 59,908 | 2026-09-04 16:22 UTC | 🟢 Live |
 | North Carolina | 5,673 | 2026-08-25 02:43 UTC | 🟡 Stale |
 | North Dakota | 5,009 | 2026-08-24 05:02 UTC | 🟡 Stale |
 | Ohio | 6,225 | 2026-08-25 02:23 UTC | 🟡 Stale |
@@ -72,7 +72,7 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | South Carolina | 5,284 | 2026-08-24 08:08 UTC | 🟡 Stale |
 | South Dakota | 6,201 | 2026-08-24 05:14 UTC | 🟡 Stale |
 | Tennessee | 19,723 | 2026-09-04 09:18 UTC | 🟢 Live |
-| Texas | 35,149 | 2026-09-04 10:37 UTC | 🟢 Live |
+| Texas | 35,149 | 2026-09-04 16:37 UTC | 🟢 Live |
 | Utah | 10,194 | 2026-08-24 05:18 UTC | 🟡 Stale |
 | Vermont | 6,193 | 2026-08-24 05:18 UTC | 🟡 Stale |
 | Virginia | 15,377 | 2026-08-25 02:38 UTC | 🟡 Stale |
