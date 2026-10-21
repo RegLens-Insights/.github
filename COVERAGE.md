@@ -6,7 +6,7 @@ Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it t
 
 **658,677 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **43 live · 8 stale · 0 dormant**. Bill counts as of 2026-10-21 12:40 UTC.
+State-level: **43 live · 8 stale · 0 dormant**. Bill counts as of 2026-10-21 18:40 UTC.
 
 ## Data sources
 
