@@ -6,7 +6,7 @@ Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it t
 
 **659,503 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **49 live · 2 stale · 0 dormant**. Bill counts as of 2026-10-23 12:40 UTC.
+State-level: **49 live · 2 stale · 0 dormant**. Bill counts as of 2026-10-23 18:40 UTC.
 
 ## Data sources
 
@@ -33,14 +33,14 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Alaska | 4,009 | 2026-10-23 03:03 UTC | 🟢 Live |
 | Arizona | 10,725 | 2026-10-23 02:48 UTC | 🟢 Live |
 | Arkansas | 5,519 | 2026-10-23 03:13 UTC | 🟢 Live |
-| California | 21,425 | 2026-10-23 16:07 UTC | 🟢 Live |
+| California | 21,425 | 2026-10-23 15:07 UTC | 🟢 Live |
 | Colorado | 7,763 | 2026-10-23 02:18 UTC | 🟢 Live |
 | Connecticut | 12,077 | 2026-10-23 03:18 UTC | 🟢 Live |
 | DC | 3,878 | 2026-10-23 03:23 UTC | 🟢 Live |
 | Delaware | 5,093 | 2026-10-23 03:28 UTC | 🟢 Live |
 | Florida | 11,931 | 2026-10-23 02:53 UTC | 🟢 Live |
 | Georgia | 10,889 | 2026-10-23 02:33 UTC | 🟢 Live |
-| Hawaii | 20,193 | 2026-10-23 09:38 UTC | 🟢 Live |
+| Hawaii | 20,193 | 2026-10-23 08:38 UTC | 🟢 Live |
 | Idaho | 7,024 | 2026-10-23 03:38 UTC | 🟢 Live |
 | Illinois | 36,441 | 2026-10-23 17:03 UTC | 🟢 Live |
 | Indiana | 7,120 | 2026-10-23 03:43 UTC | 🟢 Live |
@@ -59,9 +59,9 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Nebraska | 3,228 | 2026-10-23 05:03 UTC | 🟢 Live |
 | Nevada | 6,473 | 2026-10-23 05:18 UTC | 🟢 Live |
 | New Hampshire | 11,180 | 2026-10-23 05:08 UTC | 🟢 Live |
-| New Jersey | 46,412 | 2026-10-23 09:53 UTC | 🟢 Live |
+| New Jersey | 46,412 | 2026-10-23 08:53 UTC | 🟢 Live |
 | New Mexico | 6,357 | 2026-10-23 05:13 UTC | 🟢 Live |
-| New York | 59,944 | 2026-10-23 16:22 UTC | 🟢 Live |
+| New York | 59,944 | 2026-10-23 15:22 UTC | 🟢 Live |
 | North Carolina | 5,673 | 2026-10-23 02:43 UTC | 🟢 Live |
 | North Dakota | 5,014 | 2026-10-23 04:53 UTC | 🟢 Live |
 | Ohio | 6,329 | 2026-10-23 02:23 UTC | 🟢 Live |
@@ -72,7 +72,7 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | South Carolina | 5,308 | 2026-10-23 05:33 UTC | 🟢 Live |
 | South Dakota | 6,201 | 2026-10-23 05:38 UTC | 🟢 Live |
 | Tennessee | 19,723 | 2026-10-21 08:21 UTC | 🟡 Stale |
-| Texas | 35,149 | 2026-10-23 16:37 UTC | 🟢 Live |
+| Texas | 35,149 | 2026-10-23 15:37 UTC | 🟢 Live |
 | Utah | 10,194 | 2026-10-23 05:43 UTC | 🟢 Live |
 | Vermont | 6,194 | 2026-10-23 05:48 UTC | 🟢 Live |
 | Virginia | 15,400 | 2026-10-23 02:38 UTC | 🟢 Live |
