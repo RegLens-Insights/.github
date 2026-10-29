@@ -6,19 +6,19 @@ Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it t
 
 **660,084 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **50 live · 1 stale · 0 dormant**. Bill counts as of 2026-10-28 18:40 UTC.
+State-level: **50 live · 1 stale · 0 dormant**. Bill counts as of 2026-10-29 00:40 UTC.
 
 ## Data sources
 
 | Source | Last success | Status |
 | --- | --- | --- |
-| Federal bills | 2026-10-27 11:16 UTC | 🟢 Operational |
-| State legislation | 2026-10-28 22:37 UTC | 🟢 Operational |
+| Federal bills | 2026-10-29 06:01 UTC | 🟢 Operational |
+| State legislation | 2026-10-29 06:22 UTC | 🟢 Operational |
 | Agency actions | 2026-10-28 06:50 UTC | 🟢 Operational |
-| Court cases | 2026-10-28 06:20 UTC | 🟢 Operational |
-| Enacted laws | 2026-10-28 06:30 UTC | 🟢 Operational |
+| Court cases | 2026-10-29 06:20 UTC | 🟢 Operational |
+| Enacted laws | 2026-10-29 06:30 UTC | 🟢 Operational |
 | Committees | 2026-10-28 06:40 UTC | 🟢 Operational |
-| Hearings | 2026-10-28 06:10 UTC | 🟢 Operational |
+| Hearings | 2026-10-29 06:10 UTC | 🟢 Operational |
 
 ## Jurisdictions
 
@@ -28,58 +28,58 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 
 | Jurisdiction | Bills | Last success | Status |
 | --- | ---: | --- | --- |
-| **Federal — U.S. Congress** | 33,007 | 2026-10-27 11:16 UTC | 🟢 Live |
-| Alabama | 6,652 | 2026-10-28 03:08 UTC | 🟢 Live |
-| Alaska | 4,011 | 2026-10-28 03:03 UTC | 🟢 Live |
-| Arizona | 10,725 | 2026-10-28 02:48 UTC | 🟢 Live |
-| Arkansas | 5,519 | 2026-10-28 03:13 UTC | 🟢 Live |
-| California | 21,425 | 2026-10-28 22:07 UTC | 🟢 Live |
-| Colorado | 7,763 | 2026-10-28 02:18 UTC | 🟢 Live |
-| Connecticut | 12,077 | 2026-10-28 03:18 UTC | 🟢 Live |
-| DC | 3,884 | 2026-10-28 03:23 UTC | 🟢 Live |
-| Delaware | 5,094 | 2026-10-28 03:28 UTC | 🟢 Live |
-| Florida | 11,931 | 2026-10-28 02:53 UTC | 🟢 Live |
-| Georgia | 10,889 | 2026-10-28 02:33 UTC | 🟢 Live |
-| Hawaii | 20,193 | 2026-10-28 17:38 UTC | 🟢 Live |
-| Idaho | 7,024 | 2026-10-28 03:38 UTC | 🟢 Live |
-| Illinois | 36,444 | 2026-10-28 17:03 UTC | 🟢 Live |
-| Indiana | 7,120 | 2026-10-28 03:43 UTC | 🟢 Live |
-| Iowa | 5,635 | 2026-10-28 03:33 UTC | 🟢 Live |
-| Kansas | 4,501 | 2026-10-28 03:48 UTC | 🟢 Live |
-| Kentucky | 7,337 | 2026-10-28 03:53 UTC | 🟢 Live |
-| Louisiana | 9,453 | 2026-10-28 04:03 UTC | 🟢 Live |
-| Maine | 3,776 | 2026-10-28 04:18 UTC | 🟢 Live |
-| Maryland | 11,132 | 2026-10-28 04:13 UTC | 🟢 Live |
-| Massachusetts | 18,432 | 2026-10-28 02:28 UTC | 🟢 Live |
-| Michigan | 6,440 | 2026-10-28 04:28 UTC | 🟢 Live |
-| Minnesota | 23,031 | 2026-10-28 17:08 UTC | 🟢 Live |
-| Mississippi | 15,639 | 2026-10-28 04:43 UTC | 🟢 Live |
-| Missouri | 11,649 | 2026-10-28 04:33 UTC | 🟢 Live |
+| **Federal — U.S. Congress** | 33,007 | 2026-10-29 06:01 UTC | 🟢 Live |
+| Alabama | 6,652 | 2026-10-29 03:08 UTC | 🟢 Live |
+| Alaska | 4,011 | 2026-10-29 03:03 UTC | 🟢 Live |
+| Arizona | 10,725 | 2026-10-29 02:48 UTC | 🟢 Live |
+| Arkansas | 5,519 | 2026-10-29 03:13 UTC | 🟢 Live |
+| California | 21,425 | 2026-10-29 06:07 UTC | 🟢 Live |
+| Colorado | 7,763 | 2026-10-29 02:18 UTC | 🟢 Live |
+| Connecticut | 12,077 | 2026-10-29 03:18 UTC | 🟢 Live |
+| DC | 3,884 | 2026-10-29 03:23 UTC | 🟢 Live |
+| Delaware | 5,094 | 2026-10-29 03:28 UTC | 🟢 Live |
+| Florida | 11,931 | 2026-10-29 02:53 UTC | 🟢 Live |
+| Georgia | 10,889 | 2026-10-29 02:33 UTC | 🟢 Live |
+| Hawaii | 20,193 | 2026-10-29 01:38 UTC | 🟢 Live |
+| Idaho | 7,024 | 2026-10-29 03:38 UTC | 🟢 Live |
+| Illinois | 36,444 | 2026-10-29 01:03 UTC | 🟢 Live |
+| Indiana | 7,120 | 2026-10-29 03:43 UTC | 🟢 Live |
+| Iowa | 5,635 | 2026-10-29 03:33 UTC | 🟢 Live |
+| Kansas | 4,501 | 2026-10-29 03:48 UTC | 🟢 Live |
+| Kentucky | 7,337 | 2026-10-29 03:53 UTC | 🟢 Live |
+| Louisiana | 9,453 | 2026-10-29 04:03 UTC | 🟢 Live |
+| Maine | 3,776 | 2026-10-29 04:18 UTC | 🟢 Live |
+| Maryland | 11,132 | 2026-10-29 04:13 UTC | 🟢 Live |
+| Massachusetts | 18,432 | 2026-10-29 02:28 UTC | 🟢 Live |
+| Michigan | 6,440 | 2026-10-29 04:28 UTC | 🟢 Live |
+| Minnesota | 23,031 | 2026-10-29 01:08 UTC | 🟢 Live |
+| Mississippi | 15,639 | 2026-10-29 04:43 UTC | 🟢 Live |
+| Missouri | 11,649 | 2026-10-29 04:33 UTC | 🟢 Live |
 | Montana | 8,817 | 2026-10-27 03:48 UTC | 🟡 Stale |
-| Nebraska | 3,228 | 2026-10-28 05:03 UTC | 🟢 Live |
-| Nevada | 6,473 | 2026-10-28 05:18 UTC | 🟢 Live |
-| New Hampshire | 11,180 | 2026-10-28 05:08 UTC | 🟢 Live |
-| New Jersey | 46,413 | 2026-10-28 17:53 UTC | 🟢 Live |
-| New Mexico | 6,357 | 2026-10-28 05:13 UTC | 🟢 Live |
-| New York | 59,946 | 2026-10-28 22:22 UTC | 🟢 Live |
-| North Carolina | 5,673 | 2026-10-28 02:43 UTC | 🟢 Live |
-| North Dakota | 5,014 | 2026-10-28 04:53 UTC | 🟢 Live |
-| Ohio | 6,336 | 2026-10-28 02:23 UTC | 🟢 Live |
-| Oklahoma | 18,826 | 2026-10-28 17:28 UTC | 🟢 Live |
-| Oregon | 8,002 | 2026-10-28 05:23 UTC | 🟢 Live |
-| Pennsylvania | 11,414 | 2026-10-28 02:13 UTC | 🟢 Live |
-| Rhode Island | 11,659 | 2026-10-28 05:28 UTC | 🟢 Live |
-| South Carolina | 5,313 | 2026-10-28 05:33 UTC | 🟢 Live |
-| South Dakota | 6,201 | 2026-10-28 05:38 UTC | 🟢 Live |
-| Tennessee | 19,723 | 2026-10-28 17:18 UTC | 🟢 Live |
-| Texas | 35,149 | 2026-10-28 22:37 UTC | 🟢 Live |
-| Utah | 10,194 | 2026-10-28 05:43 UTC | 🟢 Live |
-| Vermont | 6,194 | 2026-10-28 05:48 UTC | 🟢 Live |
-| Virginia | 15,445 | 2026-10-28 02:38 UTC | 🟢 Live |
-| Washington | 8,423 | 2026-10-28 02:08 UTC | 🟢 Live |
-| West Virginia | 12,034 | 2026-10-28 05:58 UTC | 🟢 Live |
-| Wisconsin | 7,279 | 2026-10-28 05:53 UTC | 🟢 Live |
-| Wyoming | 4,008 | 2026-10-28 02:03 UTC | 🟢 Live |
+| Nebraska | 3,228 | 2026-10-29 05:03 UTC | 🟢 Live |
+| Nevada | 6,473 | 2026-10-29 05:18 UTC | 🟢 Live |
+| New Hampshire | 11,180 | 2026-10-29 05:08 UTC | 🟢 Live |
+| New Jersey | 46,413 | 2026-10-29 01:53 UTC | 🟢 Live |
+| New Mexico | 6,357 | 2026-10-29 05:13 UTC | 🟢 Live |
+| New York | 59,946 | 2026-10-29 06:22 UTC | 🟢 Live |
+| North Carolina | 5,673 | 2026-10-29 02:43 UTC | 🟢 Live |
+| North Dakota | 5,014 | 2026-10-29 04:53 UTC | 🟢 Live |
+| Ohio | 6,336 | 2026-10-29 02:23 UTC | 🟢 Live |
+| Oklahoma | 18,826 | 2026-10-29 01:28 UTC | 🟢 Live |
+| Oregon | 8,002 | 2026-10-29 05:23 UTC | 🟢 Live |
+| Pennsylvania | 11,414 | 2026-10-29 02:13 UTC | 🟢 Live |
+| Rhode Island | 11,659 | 2026-10-29 05:28 UTC | 🟢 Live |
+| South Carolina | 5,313 | 2026-10-29 05:33 UTC | 🟢 Live |
+| South Dakota | 6,201 | 2026-10-29 05:38 UTC | 🟢 Live |
+| Tennessee | 19,723 | 2026-10-29 01:18 UTC | 🟢 Live |
+| Texas | 35,149 | 2026-10-29 04:37 UTC | 🟢 Live |
+| Utah | 10,194 | 2026-10-29 05:43 UTC | 🟢 Live |
+| Vermont | 6,194 | 2026-10-29 05:48 UTC | 🟢 Live |
+| Virginia | 15,445 | 2026-10-29 02:38 UTC | 🟢 Live |
+| Washington | 8,423 | 2026-10-29 02:08 UTC | 🟢 Live |
+| West Virginia | 12,034 | 2026-10-29 05:58 UTC | 🟢 Live |
+| Wisconsin | 7,279 | 2026-10-29 05:53 UTC | 🟢 Live |
+| Wyoming | 4,008 | 2026-10-29 02:03 UTC | 🟢 Live |
 
 ---
 
