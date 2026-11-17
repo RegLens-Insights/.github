@@ -4,16 +4,16 @@
 
 Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it there is, and when it last updated. Regenerated every 6 hours; the commit history of this file is the record of when coverage actually moved.
 
-**663,789 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
+**663,823 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **51 live · 0 stale · 0 dormant**. Bill counts as of 2026-11-17 06:40 UTC.
+State-level: **49 live · 2 stale · 0 dormant**. Bill counts as of 2026-11-17 18:40 UTC.
 
 ## Data sources
 
 | Source | Last success | Status |
 | --- | --- | --- |
 | Federal bills | 2026-11-17 06:01 UTC | 🟢 Operational |
-| State legislation | 2026-11-17 08:22 UTC | 🟢 Operational |
+| State legislation | 2026-11-17 20:37 UTC | 🟢 Operational |
 | Agency actions | 2026-11-17 06:50 UTC | 🟢 Operational |
 | Court cases | 2026-11-17 06:20 UTC | 🟢 Operational |
 | Enacted laws | 2026-11-17 06:30 UTC | 🟢 Operational |
@@ -33,16 +33,16 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Alaska | 4,012 | 2026-11-17 03:03 UTC | 🟢 Live |
 | Arizona | 10,725 | 2026-11-17 02:48 UTC | 🟢 Live |
 | Arkansas | 5,519 | 2026-11-17 03:13 UTC | 🟢 Live |
-| California | 21,426 | 2026-11-17 08:07 UTC | 🟢 Live |
+| California | 21,426 | 2026-11-17 20:07 UTC | 🟢 Live |
 | Colorado | 7,763 | 2026-11-17 02:18 UTC | 🟢 Live |
 | Connecticut | 12,077 | 2026-11-17 03:18 UTC | 🟢 Live |
 | DC | 3,928 | 2026-11-17 03:23 UTC | 🟢 Live |
 | Delaware | 5,096 | 2026-11-17 03:28 UTC | 🟢 Live |
 | Florida | 11,931 | 2026-11-17 02:53 UTC | 🟢 Live |
 | Georgia | 10,889 | 2026-11-17 02:33 UTC | 🟢 Live |
-| Hawaii | 20,193 | 2026-11-17 01:38 UTC | 🟢 Live |
+| Hawaii | 20,193 | 2026-10-27 06:57 UTC | 🟡 Stale |
 | Idaho | 7,024 | 2026-11-17 03:38 UTC | 🟢 Live |
-| Illinois | 36,447 | 2026-11-17 01:03 UTC | 🟢 Live |
+| Illinois | 36,447 | 2026-11-17 17:03 UTC | 🟢 Live |
 | Indiana | 7,120 | 2026-11-17 03:43 UTC | 🟢 Live |
 | Iowa | 5,642 | 2026-11-17 03:33 UTC | 🟢 Live |
 | Kansas | 4,501 | 2026-11-17 03:48 UTC | 🟢 Live |
@@ -50,29 +50,29 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 | Louisiana | 9,453 | 2026-11-17 04:03 UTC | 🟢 Live |
 | Maine | 3,776 | 2026-11-17 04:18 UTC | 🟢 Live |
 | Maryland | 11,133 | 2026-11-17 04:13 UTC | 🟢 Live |
-| Massachusetts | 18,481 | 2026-11-16 01:28 UTC | 🟢 Live |
+| Massachusetts | 18,481 | 2026-11-16 01:28 UTC | 🟡 Stale |
 | Michigan | 6,580 | 2026-11-17 04:28 UTC | 🟢 Live |
-| Minnesota | 23,031 | 2026-11-17 01:08 UTC | 🟢 Live |
+| Minnesota | 23,031 | 2026-11-17 17:08 UTC | 🟢 Live |
 | Mississippi | 15,656 | 2026-11-17 04:43 UTC | 🟢 Live |
 | Missouri | 11,649 | 2026-11-17 04:33 UTC | 🟢 Live |
 | Montana | 9,386 | 2026-11-17 04:48 UTC | 🟢 Live |
 | Nebraska | 3,228 | 2026-11-17 05:03 UTC | 🟢 Live |
 | Nevada | 7,152 | 2026-11-17 05:18 UTC | 🟢 Live |
 | New Hampshire | 11,180 | 2026-11-17 05:08 UTC | 🟢 Live |
-| New Jersey | 46,413 | 2026-11-17 01:53 UTC | 🟢 Live |
+| New Jersey | 46,413 | 2026-11-17 17:53 UTC | 🟢 Live |
 | New Mexico | 6,357 | 2026-11-17 05:13 UTC | 🟢 Live |
-| New York | 59,956 | 2026-11-17 08:22 UTC | 🟢 Live |
+| New York | 59,956 | 2026-11-17 20:22 UTC | 🟢 Live |
 | North Carolina | 5,673 | 2026-11-17 02:43 UTC | 🟢 Live |
 | North Dakota | 5,014 | 2026-11-17 04:53 UTC | 🟢 Live |
 | Ohio | 6,386 | 2026-11-17 02:23 UTC | 🟢 Live |
-| Oklahoma | 18,826 | 2026-11-17 01:28 UTC | 🟢 Live |
+| Oklahoma | 18,826 | 2026-11-17 17:28 UTC | 🟢 Live |
 | Oregon | 8,002 | 2026-11-17 05:23 UTC | 🟢 Live |
 | Pennsylvania | 11,456 | 2026-11-17 02:13 UTC | 🟢 Live |
 | Rhode Island | 11,659 | 2026-11-17 05:28 UTC | 🟢 Live |
 | South Carolina | 5,317 | 2026-11-17 05:33 UTC | 🟢 Live |
 | South Dakota | 6,201 | 2026-11-17 05:38 UTC | 🟢 Live |
-| Tennessee | 19,723 | 2026-11-17 01:18 UTC | 🟢 Live |
-| Texas | 36,670 | 2026-11-17 06:37 UTC | 🟢 Live |
+| Tennessee | 19,723 | 2026-11-17 17:18 UTC | 🟢 Live |
+| Texas | 36,704 | 2026-11-17 20:37 UTC | 🟢 Live |
 | Utah | 10,194 | 2026-11-17 05:43 UTC | 🟢 Live |
 | Vermont | 6,195 | 2026-11-17 05:48 UTC | 🟢 Live |
 | Virginia | 15,650 | 2026-11-17 02:38 UTC | 🟢 Live |
