@@ -4,21 +4,21 @@
 
 Every jurisdiction [RegLens](https://www.reglens.info) carries, how much of it there is, and when it last updated. Regenerated every 6 hours; the commit history of this file is the record of when coverage actually moved.
 
-**664,577 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
+**664,683 bills** across **52 jurisdictions** — federal plus 51 state-level jurisdictions.
 
-State-level: **51 live · 0 stale · 0 dormant**. Bill counts as of 2026-11-23 18:40 UTC.
+State-level: **51 live · 0 stale · 0 dormant**. Bill counts as of 2026-11-24 06:40 UTC.
 
 ## Data sources
 
 | Source | Last success | Status |
 | --- | --- | --- |
-| Federal bills | 2026-11-23 06:00 UTC | 🟢 Operational |
-| State legislation | 2026-11-24 00:22 UTC | 🟢 Operational |
-| Agency actions | 2026-11-23 06:50 UTC | 🟢 Operational |
-| Court cases | 2026-11-23 06:20 UTC | 🟢 Operational |
-| Enacted laws | 2026-11-23 06:30 UTC | 🟢 Operational |
-| Committees | 2026-11-23 06:40 UTC | 🟢 Operational |
-| Hearings | 2026-11-23 06:10 UTC | 🟢 Operational |
+| Federal bills | 2026-11-24 06:02 UTC | 🟢 Operational |
+| State legislation | 2026-11-24 10:22 UTC | 🟢 Operational |
+| Agency actions | 2026-11-24 06:50 UTC | 🟢 Operational |
+| Court cases | 2026-11-24 06:20 UTC | 🟢 Operational |
+| Enacted laws | 2026-11-24 06:30 UTC | 🟢 Operational |
+| Committees | 2026-11-24 06:40 UTC | 🟢 Operational |
+| Hearings | 2026-11-24 06:10 UTC | 🟢 Operational |
 
 ## Jurisdictions
 
@@ -28,58 +28,58 @@ Freshness is when a source last *reported*, not when a legislature last *acted* 
 
 | Jurisdiction | Bills | Last success | Status |
 | --- | ---: | --- | --- |
-| **Federal — U.S. Congress** | 33,297 | 2026-11-23 06:00 UTC | 🟢 Live |
-| Alabama | 6,652 | 2026-11-23 03:08 UTC | 🟢 Live |
-| Alaska | 4,012 | 2026-11-23 03:03 UTC | 🟢 Live |
-| Arizona | 10,725 | 2026-11-23 02:48 UTC | 🟢 Live |
-| Arkansas | 5,519 | 2026-11-23 03:13 UTC | 🟢 Live |
-| California | 21,426 | 2026-11-24 00:07 UTC | 🟢 Live |
-| Colorado | 7,763 | 2026-11-23 02:18 UTC | 🟢 Live |
-| Connecticut | 12,077 | 2026-11-23 03:18 UTC | 🟢 Live |
-| DC | 3,932 | 2026-11-23 03:23 UTC | 🟢 Live |
-| Delaware | 5,096 | 2026-11-23 03:28 UTC | 🟢 Live |
-| Florida | 11,931 | 2026-11-23 02:53 UTC | 🟢 Live |
-| Georgia | 10,889 | 2026-11-23 02:33 UTC | 🟢 Live |
-| Hawaii | 20,229 | 2026-11-23 17:38 UTC | 🟢 Live |
-| Idaho | 7,024 | 2026-11-23 03:38 UTC | 🟢 Live |
-| Illinois | 36,447 | 2026-11-23 17:03 UTC | 🟢 Live |
-| Indiana | 7,120 | 2026-11-23 03:43 UTC | 🟢 Live |
-| Iowa | 5,642 | 2026-11-23 03:33 UTC | 🟢 Live |
-| Kansas | 4,501 | 2026-11-23 03:48 UTC | 🟢 Live |
-| Kentucky | 7,337 | 2026-11-23 03:53 UTC | 🟢 Live |
-| Louisiana | 9,453 | 2026-11-23 04:03 UTC | 🟢 Live |
-| Maine | 3,776 | 2026-11-23 04:18 UTC | 🟢 Live |
-| Maryland | 11,133 | 2026-11-23 04:13 UTC | 🟢 Live |
-| Massachusetts | 18,559 | 2026-11-23 02:28 UTC | 🟢 Live |
-| Michigan | 6,580 | 2026-11-23 04:28 UTC | 🟢 Live |
-| Minnesota | 23,031 | 2026-11-23 17:08 UTC | 🟢 Live |
-| Mississippi | 15,656 | 2026-11-23 04:43 UTC | 🟢 Live |
-| Missouri | 11,652 | 2026-11-23 04:33 UTC | 🟢 Live |
-| Montana | 9,583 | 2026-11-23 04:48 UTC | 🟢 Live |
-| Nebraska | 3,228 | 2026-11-23 05:03 UTC | 🟢 Live |
-| Nevada | 7,265 | 2026-11-23 05:18 UTC | 🟢 Live |
-| New Hampshire | 11,180 | 2026-11-23 05:08 UTC | 🟢 Live |
-| New Jersey | 46,413 | 2026-11-23 17:53 UTC | 🟢 Live |
-| New Mexico | 6,357 | 2026-11-23 05:13 UTC | 🟢 Live |
-| New York | 59,957 | 2026-11-24 00:22 UTC | 🟢 Live |
-| North Carolina | 5,673 | 2026-11-23 02:43 UTC | 🟢 Live |
-| North Dakota | 5,014 | 2026-11-23 04:53 UTC | 🟢 Live |
-| Ohio | 6,408 | 2026-11-23 02:23 UTC | 🟢 Live |
-| Oklahoma | 18,830 | 2026-11-23 17:28 UTC | 🟢 Live |
-| Oregon | 8,002 | 2026-11-23 05:23 UTC | 🟢 Live |
-| Pennsylvania | 11,465 | 2026-11-23 02:13 UTC | 🟢 Live |
-| Rhode Island | 11,659 | 2026-11-23 05:28 UTC | 🟢 Live |
-| South Carolina | 5,317 | 2026-11-23 05:33 UTC | 🟢 Live |
-| South Dakota | 6,201 | 2026-11-23 05:38 UTC | 🟢 Live |
-| Tennessee | 19,751 | 2026-11-23 17:18 UTC | 🟢 Live |
-| Texas | 36,873 | 2026-11-23 22:37 UTC | 🟢 Live |
-| Utah | 10,194 | 2026-11-23 05:43 UTC | 🟢 Live |
-| Vermont | 6,195 | 2026-11-23 05:48 UTC | 🟢 Live |
-| Virginia | 15,658 | 2026-11-23 02:38 UTC | 🟢 Live |
-| Washington | 8,423 | 2026-11-23 02:08 UTC | 🟢 Live |
-| West Virginia | 12,034 | 2026-11-23 05:58 UTC | 🟢 Live |
-| Wisconsin | 7,279 | 2026-11-23 05:53 UTC | 🟢 Live |
-| Wyoming | 4,159 | 2026-11-23 02:03 UTC | 🟢 Live |
+| **Federal — U.S. Congress** | 33,316 | 2026-11-24 06:02 UTC | 🟢 Live |
+| Alabama | 6,652 | 2026-11-24 03:08 UTC | 🟢 Live |
+| Alaska | 4,012 | 2026-11-24 03:03 UTC | 🟢 Live |
+| Arizona | 10,725 | 2026-11-24 02:48 UTC | 🟢 Live |
+| Arkansas | 5,519 | 2026-11-24 03:13 UTC | 🟢 Live |
+| California | 21,426 | 2026-11-24 10:07 UTC | 🟢 Live |
+| Colorado | 7,763 | 2026-11-24 02:18 UTC | 🟢 Live |
+| Connecticut | 12,077 | 2026-11-24 03:18 UTC | 🟢 Live |
+| DC | 3,934 | 2026-11-24 03:23 UTC | 🟢 Live |
+| Delaware | 5,096 | 2026-11-24 03:28 UTC | 🟢 Live |
+| Florida | 11,931 | 2026-11-24 02:53 UTC | 🟢 Live |
+| Georgia | 10,889 | 2026-11-24 02:33 UTC | 🟢 Live |
+| Hawaii | 20,236 | 2026-11-24 09:38 UTC | 🟢 Live |
+| Idaho | 7,024 | 2026-11-24 03:38 UTC | 🟢 Live |
+| Illinois | 36,447 | 2026-11-24 09:03 UTC | 🟢 Live |
+| Indiana | 7,120 | 2026-11-24 03:43 UTC | 🟢 Live |
+| Iowa | 5,642 | 2026-11-24 03:33 UTC | 🟢 Live |
+| Kansas | 4,501 | 2026-11-24 03:48 UTC | 🟢 Live |
+| Kentucky | 7,337 | 2026-11-24 03:53 UTC | 🟢 Live |
+| Louisiana | 9,453 | 2026-11-24 04:03 UTC | 🟢 Live |
+| Maine | 3,776 | 2026-11-24 04:18 UTC | 🟢 Live |
+| Maryland | 11,134 | 2026-11-24 04:13 UTC | 🟢 Live |
+| Massachusetts | 18,559 | 2026-11-24 02:28 UTC | 🟢 Live |
+| Michigan | 6,580 | 2026-11-24 04:28 UTC | 🟢 Live |
+| Minnesota | 23,031 | 2026-11-24 09:08 UTC | 🟢 Live |
+| Mississippi | 15,656 | 2026-11-24 04:43 UTC | 🟢 Live |
+| Missouri | 11,653 | 2026-11-24 04:33 UTC | 🟢 Live |
+| Montana | 9,641 | 2026-11-24 04:48 UTC | 🟢 Live |
+| Nebraska | 3,228 | 2026-11-24 05:03 UTC | 🟢 Live |
+| Nevada | 7,274 | 2026-11-24 05:18 UTC | 🟢 Live |
+| New Hampshire | 11,180 | 2026-11-24 05:08 UTC | 🟢 Live |
+| New Jersey | 46,413 | 2026-11-24 09:53 UTC | 🟢 Live |
+| New Mexico | 6,357 | 2026-11-24 05:13 UTC | 🟢 Live |
+| New York | 59,958 | 2026-11-24 10:22 UTC | 🟢 Live |
+| North Carolina | 5,673 | 2026-11-24 02:43 UTC | 🟢 Live |
+| North Dakota | 5,014 | 2026-11-24 04:53 UTC | 🟢 Live |
+| Ohio | 6,408 | 2026-11-24 02:23 UTC | 🟢 Live |
+| Oklahoma | 18,830 | 2026-11-24 09:28 UTC | 🟢 Live |
+| Oregon | 8,002 | 2026-11-24 05:23 UTC | 🟢 Live |
+| Pennsylvania | 11,466 | 2026-11-24 02:13 UTC | 🟢 Live |
+| Rhode Island | 11,659 | 2026-11-24 05:28 UTC | 🟢 Live |
+| South Carolina | 5,317 | 2026-11-24 05:33 UTC | 🟢 Live |
+| South Dakota | 6,201 | 2026-11-24 05:38 UTC | 🟢 Live |
+| Tennessee | 19,752 | 2026-11-24 09:18 UTC | 🟢 Live |
+| Texas | 36,879 | 2026-11-24 08:37 UTC | 🟢 Live |
+| Utah | 10,194 | 2026-11-24 05:43 UTC | 🟢 Live |
+| Vermont | 6,195 | 2026-11-24 05:48 UTC | 🟢 Live |
+| Virginia | 15,658 | 2026-11-24 02:38 UTC | 🟢 Live |
+| Washington | 8,423 | 2026-11-24 02:08 UTC | 🟢 Live |
+| West Virginia | 12,034 | 2026-11-24 05:58 UTC | 🟢 Live |
+| Wisconsin | 7,279 | 2026-11-24 05:53 UTC | 🟢 Live |
+| Wyoming | 4,159 | 2026-11-24 02:03 UTC | 🟢 Live |
 
 ---
 
